@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>While</title>
+  </head>
+  <body>
+    <style>
+        .boxes{
+            display: flex;
+            gap: 2%;
+            justify-content: center;
+            height: 100vh;
+            align-items: center;
+            position: relative;
+        }
+      .box {
+        width: 100px;
+        height: 100px;
+        background-color: lightblue;
+        font-size: 2rem;
+        color: crimson;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bolder;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+      button{
+        margin: 0 4rem;
+      }
+      .box-1{
+        background-color: lightblue;
+      }
+      .box-2{
+        background-color: lightgreen;
+      } 
+      .box-3{
+        background-color: lightskyblue;
+      }
+      .box-4{
+        background-color: lightslategrey;
+      } 
+      .box-5{
+        background-color: lightpink;
+      }
+      .box-6{
+        background-color: lightgoldenrodyellow;
+      } 
+
+    </style>
+
+    <div class="boxes">
+        <!-- <button id="previous">previous</button> -->
+      <div class="box box-1" >1</div>
+      <div class="box box-2">2</div>
+      <div class="box box-3">3</div>
+      <div class="box box-4" >4</div>
+      <div class="box box-5">5</div>
+      <div class="box box-6">6</div>
+      <button id="next">next</button>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
